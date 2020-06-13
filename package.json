@@ -1,0 +1,36 @@
+{
+  "name": "selvablog",
+  "version": "1.0.0",
+  "description": "All rest operation such as create,read,update and delete with user Authentication and Authorization ",
+  "main": "app.js",
+  "scripts": {
+    "start": "node ./app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/selvakumaranram/"
+  },
+  "keywords": [
+    "CRUD",
+    "API",
+    "User",
+    "Authentication",
+    "and",
+    "Authorization"
+  ],
+  "author": "Selvakumaran",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.0.0",
+    "body-parser": "^1.19.0",
+    "core-js": "^3.6.5",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.9.18",
+    "mongoose-unique-validator": "^2.0.3",
+    "multer": "^1.4.2",
+    "nodemon": "^2.0.4"
+  }
+}
